@@ -2,8 +2,8 @@
 
 char *ft_strchr(const char *str, int c)
 {   
-   char key = c; 
-    while(*str != key)
+    char key = c; 
+    while (*str != key)
     {
         if (*str == '\0')
         {

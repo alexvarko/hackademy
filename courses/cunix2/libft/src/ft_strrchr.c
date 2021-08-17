@@ -7,9 +7,9 @@ char *ft_strrchr(const char *str, int c)
     {
         return (char *) str + ft_strlen(str);
     }
-    while(*str != '\0')
+    while (*str != '\0')
     {
-        if (*str ==  (char) c)
+        if (*str == (char) c)
         {
             addr = (char *) str;
         }

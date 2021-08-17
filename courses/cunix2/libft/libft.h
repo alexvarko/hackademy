@@ -10,3 +10,4 @@ int ft_isalpha(int i);
 int ft_isdigit(int c);
 int ft_isascii(int c);
 int ft_toupper(int c);
+int ft_tolower(int c);

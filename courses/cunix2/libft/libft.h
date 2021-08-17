@@ -14,3 +14,4 @@ int ft_tolower(int c);
 int ft_abs(int c);
 div_t ft_div(int numerator, int denominator);
 char *ft_strstr(const char *str1, const char *str2);
+void *ft_memset(void *s, int c, size_t n);

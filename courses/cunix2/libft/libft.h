@@ -8,3 +8,4 @@ char *ft_strchr(const char *str, int c);
 char *ft_strrchr(const char *str, int c);
 int ft_isalpha(int i);
 int ft_isdigit(int c);
+int ft_isascii(int c);
